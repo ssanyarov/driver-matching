@@ -1,3 +1,9 @@
 using BenchmarkDotNet.Running;
 
-BenchmarkRunner.Run<NearestBench>();
+public static class Program
+{
+    public static void Main(string[] args)
+    {
+        BenchmarkRunner.Run<NearestBench>();
+    }
+}
