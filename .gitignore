@@ -5,3 +5,5 @@ BenchmarkDotNet.Artifacts/
 bench_results/
 *.user
 *.suo
+
+
